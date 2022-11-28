@@ -1,0 +1,56 @@
+.image-container {
+  background: skyblue ;
+  height: 100vh;
+}
+
+.register-form {
+  border-radius: 20px;
+}
+
+#pswd_info ul {
+  list-style: outside none none;
+}
+
+#pswd_info ul li {
+  padding: 2px 10px 0px 2px;
+}
+
+.valid {
+  background: rgba(0, 0, 0, 0);
+  color: green;
+  line-height: 21px;
+  padding-left: 22px;
+}
+
+.invalid {
+  background: rgba(0, 0, 0, 0);
+  color: red;
+  line-height: 21px;
+  padding-left: 22px;
+}
+
+#pswd_info {
+  background: whitesmoke;
+  position: absolute;
+  z-index: 99;
+}
+
+
+#pswd_info::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  border-bottom: 15px solid whitesmoke;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+#hello {
+  position: relative;
+  z-index: 10;
+}
+
+#pswd_info {
+  display: none;
+}
